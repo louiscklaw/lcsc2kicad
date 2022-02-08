@@ -1,0 +1,1 @@
+nodemon -w scripts/* -e * --exec scripts\test.bat
