@@ -6,20 +6,20 @@ pipenv install -r requirements.txt
 @REM start pipenv run python ./fetch_component.py scripts/xaa
 @REM start pipenv run python ./fetch_component.py scripts/xab
 @REM start pipenv run python ./fetch_component.py scripts/xac
+@REM start pipenv run python ./fetch_component.py scripts/xad
 
 @REM 192.168.10.32
-@REM start pipenv run python ./fetch_component.py scripts/xad
 @REM start pipenv run python ./fetch_component.py scripts/xae
 @REM start pipenv run python ./fetch_component.py scripts/xaf
-
-@REM 192.168.10.225
 @REM start pipenv run python ./fetch_component.py scripts/xag
 @REM start pipenv run python ./fetch_component.py scripts/xah
-@REM start pipenv run python ./fetch_component.py scripts/xai
 
+@REM 192.168.10.225
+@REM start pipenv run python ./fetch_component.py scripts/xai
 @REM start pipenv run python ./fetch_component.py scripts/xaj
 @REM start pipenv run python ./fetch_component.py scripts/xak
 @REM start pipenv run python ./fetch_component.py scripts/xal
+
 @REM start pipenv run python ./fetch_component.py scripts/xam
 @REM start pipenv run python ./fetch_component.py scripts/xan
 @REM start pipenv run python ./fetch_component.py scripts/xao
