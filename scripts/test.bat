@@ -2,17 +2,17 @@ del scripts\*_fail.log
 
 pipenv install -r requirements.txt
 
-pipenv run python ./fetch_component.py scripts/xaa
-@REM start pipenv run python ./fetch_component.py scripts/xab
-@REM start pipenv run python ./fetch_component.py scripts/xac
+start pipenv run python ./fetch_component.py scripts/xaa
+start pipenv run python ./fetch_component.py scripts/xab
+start pipenv run python ./fetch_component.py scripts/xac
 @REM start pipenv run python ./fetch_component.py scripts/xad
 @REM start pipenv run python ./fetch_component.py scripts/xae
 @REM start pipenv run python ./fetch_component.py scripts/xaf
 
 @REM 192.168.10.225
-start pipenv run python ./fetch_component.py scripts/xag
-start pipenv run python ./fetch_component.py scripts/xah
-start pipenv run python ./fetch_component.py scripts/xai
+@REM start pipenv run python ./fetch_component.py scripts/xag
+@REM start pipenv run python ./fetch_component.py scripts/xah
+@REM start pipenv run python ./fetch_component.py scripts/xai
 
 @REM start pipenv run python ./fetch_component.py scripts/xaj
 @REM start pipenv run python ./fetch_component.py scripts/xak

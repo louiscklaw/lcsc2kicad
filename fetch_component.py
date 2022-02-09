@@ -21,6 +21,9 @@ STOCK_COL=11
 LCSC_PART_LIST =[]
 
 _PID=os.getpid()
+_CWD=os.getcwd()
+_JLC2KiCad_lib_PATH = r'C:\Users\logic\_TODO\JLC2KiCad_lib'
+
 
 _CSV_PATH = sys.argv[1]
 _FILENAME=_CSV_PATH.split('/')[1]
@@ -41,7 +44,7 @@ with open(_CSV_PATH, newline='') as csvfile:
       second_category = row[SECOND_CATEGORY_COL]
       descr = row[DESCRIPTION_COL]
       mfr_part = row[MFR_PART_COL]
-      # print(f'pushing component {lcsc_part_num}')
+      print(f'pushing component {lcsc_part_num}')
       LCSC_PART_LIST.append([lcsc_part_num, first_category, second_category, descr, mfr_part]) 
     else:
       i+=1
@@ -54,14 +57,15 @@ with open(_FAIL_LOG_PATH,'w') as f_fail:
     
     try:
       print(chalk.yellow(f'fetching component {lcsc_part_num} ...'))
-      subprocess.check_output([r'scripts\batch_add.bat', TMP, lcsc_part_num, first_cat, second_cat, descr, mfr_part], stderr=None, shell=True, cwd=r'C:\Users\logic\_TODO\JLC2KiCad_lib')
+      subprocess.check_output([r'scripts\batch_add.bat', TMP, lcsc_part_num, 'first_cat', 'second_cat', 'descr', 'mfr_part'], 
+        stderr=None, shell=True, cwd=_JLC2KiCad_lib_PATH)
       # print(f'component {lcsc_part_num} done')
       print(chalk.green(f'component {lcsc_part_num} done'))
 
     except Exception as err:
       print(chalk.red(f'component {lcsc_part_num} failed'))
       f_fail.write(f'{lcsc_part_num} failed\n')
+      # raise
 
-    # break
 
     # print(lcsc_part_num)
