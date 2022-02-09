@@ -1,4 +1,5 @@
 scripts/lcsc_full_list.csv
+scripts/x*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
