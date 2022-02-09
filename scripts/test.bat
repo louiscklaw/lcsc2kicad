@@ -3,44 +3,44 @@ del scripts\*_fail.log
 pipenv install -r requirements.txt
 
 @REM 192.168.10.53
-@REM start pipenv run python ./fetch_component.py scripts/xaa
-@REM start pipenv run python ./fetch_component.py scripts/xab
-@REM start pipenv run python ./fetch_component.py scripts/xac
-@REM start pipenv run python ./fetch_component.py scripts/xad
+: start pipenv run python ./fetch_component.py scripts/xaa
+: start pipenv run python ./fetch_component.py scripts/xab
+: start pipenv run python ./fetch_component.py scripts/xac
+: start pipenv run python ./fetch_component.py scripts/xad
 
 @REM 192.168.10.32
-@REM start pipenv run python ./fetch_component.py scripts/xae
-@REM start pipenv run python ./fetch_component.py scripts/xaf
-@REM start pipenv run python ./fetch_component.py scripts/xag
-@REM start pipenv run python ./fetch_component.py scripts/xah
+: start pipenv run python ./fetch_component.py scripts/xae
+: start pipenv run python ./fetch_component.py scripts/xaf
+: start pipenv run python ./fetch_component.py scripts/xag
+: start pipenv run python ./fetch_component.py scripts/xah
 
-@REM 192.168.10.225
-@REM start pipenv run python ./fetch_component.py scripts/xai
-@REM start pipenv run python ./fetch_component.py scripts/xaj
-@REM start pipenv run python ./fetch_component.py scripts/xak
-@REM start pipenv run python ./fetch_component.py scripts/xal
+: 192.168.10.225
+: start pipenv run python ./fetch_component.py scripts/xai
+: start pipenv run python ./fetch_component.py scripts/xaj
+: start pipenv run python ./fetch_component.py scripts/xak
+: start pipenv run python ./fetch_component.py scripts/xal
 
-@REM start pipenv run python ./fetch_component.py scripts/xam
-@REM start pipenv run python ./fetch_component.py scripts/xan
-@REM start pipenv run python ./fetch_component.py scripts/xao
-@REM start pipenv run python ./fetch_component.py scripts/xap
-@REM start pipenv run python ./fetch_component.py scripts/xaq
-@REM start pipenv run python ./fetch_component.py scripts/xar
-@REM start pipenv run python ./fetch_component.py scripts/xas
-@REM start pipenv run python ./fetch_component.py scripts/xat
-@REM start pipenv run python ./fetch_component.py scripts/xau
-@REM start pipenv run python ./fetch_component.py scripts/xav
-@REM start pipenv run python ./fetch_component.py scripts/xaw
-@REM start pipenv run python ./fetch_component.py scripts/xax
-@REM start pipenv run python ./fetch_component.py scripts/xay
-@REM start pipenv run python ./fetch_component.py scripts/xaz
-@REM start pipenv run python ./fetch_component.py scripts/xba
-@REM start pipenv run python ./fetch_component.py scripts/xbb
-@REM start pipenv run python ./fetch_component.py scripts/xbc
-@REM start pipenv run python ./fetch_component.py scripts/xbd
-@REM start pipenv run python ./fetch_component.py scripts/xbe
-@REM start pipenv run python ./fetch_component.py scripts/xbf
-@REM start pipenv run python ./fetch_component.py scripts/xbg
-@REM start pipenv run python ./fetch_component.py scripts/xbh
-@REM start pipenv run python ./fetch_component.py scripts/xbi
-@REM start pipenv run python ./fetch_component.py scripts/xbj
+: start pipenv run python ./fetch_component.py scripts/xam
+: start pipenv run python ./fetch_component.py scripts/xan
+: start pipenv run python ./fetch_component.py scripts/xao
+: start pipenv run python ./fetch_component.py scripts/xap
+: start pipenv run python ./fetch_component.py scripts/xaq
+: start pipenv run python ./fetch_component.py scripts/xar
+: start pipenv run python ./fetch_component.py scripts/xas
+: start pipenv run python ./fetch_component.py scripts/xat
+: start pipenv run python ./fetch_component.py scripts/xau
+: start pipenv run python ./fetch_component.py scripts/xav
+: start pipenv run python ./fetch_component.py scripts/xaw
+: start pipenv run python ./fetch_component.py scripts/xax
+: start pipenv run python ./fetch_component.py scripts/xay
+: start pipenv run python ./fetch_component.py scripts/xaz
+: start pipenv run python ./fetch_component.py scripts/xba
+: start pipenv run python ./fetch_component.py scripts/xbb
+: start pipenv run python ./fetch_component.py scripts/xbc
+: start pipenv run python ./fetch_component.py scripts/xbd
+: start pipenv run python ./fetch_component.py scripts/xbe
+: start pipenv run python ./fetch_component.py scripts/xbf
+: start pipenv run python ./fetch_component.py scripts/xbg
+: start pipenv run python ./fetch_component.py scripts/xbh
+: start pipenv run python ./fetch_component.py scripts/xbi
+: start pipenv run python ./fetch_component.py scripts/xbj
