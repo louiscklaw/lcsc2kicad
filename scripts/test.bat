@@ -31,18 +31,22 @@ pipenv install -r requirements.txt
 : start pipenv run python ./fetch_component.py scripts/xar
 : start pipenv run python ./fetch_component.py scripts/xas
 : start pipenv run python ./fetch_component.py scripts/xat
+
 : start pipenv run python ./fetch_component.py scripts/xau
 : start pipenv run python ./fetch_component.py scripts/xav
 : start pipenv run python ./fetch_component.py scripts/xaw
 : start pipenv run python ./fetch_component.py scripts/xax
+
 : start pipenv run python ./fetch_component.py scripts/xay
 : start pipenv run python ./fetch_component.py scripts/xaz
 : start pipenv run python ./fetch_component.py scripts/xba
 : start pipenv run python ./fetch_component.py scripts/xbb
+
 : start pipenv run python ./fetch_component.py scripts/xbc
 : start pipenv run python ./fetch_component.py scripts/xbd
 : start pipenv run python ./fetch_component.py scripts/xbe
 : start pipenv run python ./fetch_component.py scripts/xbf
+
 : start pipenv run python ./fetch_component.py scripts/xbg
 : start pipenv run python ./fetch_component.py scripts/xbh
 : start pipenv run python ./fetch_component.py scripts/xbi
