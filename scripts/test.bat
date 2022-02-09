@@ -20,10 +20,12 @@ pipenv install -r requirements.txt
 : start pipenv run python ./fetch_component.py scripts/xak
 : start pipenv run python ./fetch_component.py scripts/xal
 
+: 192.168.10.81
 : start pipenv run python ./fetch_component.py scripts/xam
 : start pipenv run python ./fetch_component.py scripts/xan
 : start pipenv run python ./fetch_component.py scripts/xao
 : start pipenv run python ./fetch_component.py scripts/xap
+
 : start pipenv run python ./fetch_component.py scripts/xaq
 : start pipenv run python ./fetch_component.py scripts/xar
 : start pipenv run python ./fetch_component.py scripts/xas
